@@ -1,0 +1,12 @@
+version: v2
+clean: true
+managed:
+  enabled: true
+inputs:
+  - module: buf.build/googleapis/googleapis
+plugins:
+  - local: protoc-gen-elixir
+    out: lib/generated
+    opt:
+      - paths=source_relative
+      - include_docs=true
