@@ -36,9 +36,9 @@ defmodule Googleapis.MixProject do
 
   defp package do
     %{
-      maintainers: ["Adriano Santos", "Dave Lucia", "Bing Han", "Paulo Valente"],
-      licenses: ["Apache 2"],
-      links: %{"GitHub" => "https://github.com/elixir-grpc/grpc"},
+      maintainers: ["Adriano Santos", "Dave Lucia", "Bing Han", "Paulo Valente", "Yordis Prieto"],
+      licenses: ["Apache-2.0"],
+      links: %{"GitHub" => "https://github.com/elixir-grpc/googleapis"},
       files: ~w(mix.exs README.md lib LICENSE .formatter.exs)
     }
   end
