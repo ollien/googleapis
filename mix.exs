@@ -39,7 +39,7 @@ defmodule Googleapis.MixProject do
       maintainers: ["Adriano Santos", "Dave Lucia", "Bing Han", "Paulo Valente"],
       licenses: ["Apache 2"],
       links: %{"GitHub" => "https://github.com/elixir-grpc/grpc"},
-      files: ~w(mix.exs README.md lib src config priv/templates LICENSE .formatter.exs)
+      files: ~w(mix.exs README.md lib LICENSE .formatter.exs)
     }
   end
 end
