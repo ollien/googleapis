@@ -7,7 +7,7 @@ defmodule Googleapis.MixProject do
     [
       app: :googleapis,
       version: @version,
-      elixir: "~> 1.18",
+      elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       package: package(),
@@ -17,7 +17,7 @@ defmodule Googleapis.MixProject do
         main: "readme",
         source_ref: "v#{@version}",
         source_url: "https://github.com/elixir-grpc/googleapis"
-      ],
+      ]
     ]
   end
 
@@ -30,6 +30,7 @@ defmodule Googleapis.MixProject do
   defp deps do
     [
       {:protobuf, "~> 0.12"},
+      {:jason, "~> 1.4"},
       {:ex_doc, "~> 0.30", only: :dev, runtime: false}
     ]
   end
